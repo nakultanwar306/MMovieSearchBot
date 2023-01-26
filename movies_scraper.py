@@ -1,11 +1,11 @@
-# © https://t.me/CyniteBackup
+# © https://t.me/All_Backup_Channel_Movies
 
 import requests
 from bs4 import BeautifulSoup
 
 
 url_list = {}
-api_key = "Your Api Key"
+api_key = "f61ed0df636332fd0ea6b6ea7ec77abc0693567b"
 
 
 def search_movies(query):
@@ -34,7 +34,7 @@ def get_movie(query):
         links = movie_page_link.find_all("a", {'rel': 'noopener', 'data-wpel-link': 'internal'})
         final_links = {}
         for i in links:
-            url = f"https://shortnerfly.com/api?api={api_key}&url={i['href']}"
+            url = f"https://urlshortx.com/api?api=f61ed0df636332fd0ea6b6ea7ec77abc0693567b&url=yourdestinationlink.com&alias=CustomAlias"
             response = requests.get(url)
             link = response.json()
             final_links[f"{i.text}"] = link['shortenedUrl']
