@@ -6,7 +6,7 @@
   <b>Movies-Search-Bot</b>
 </h1>
 
-## TG Bot [@CyniteBackup](t.me/CyniteBackup)
+## TG Bot [@MovieBackup](t.me/MovieBackup)
 
 * [![Contact](https://img.shields.io/static/v1?label=Contact&message=On+Telegram&color=critical)](https://t.me/Cynitesupport)
 
