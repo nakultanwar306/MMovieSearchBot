@@ -1,4 +1,4 @@
-# © https://t.me/CyniteBackup
+# © https://t.me/All_Backup_Channel_Movies
 import os
 from io import BytesIO
 from queue import Queue
